@@ -108,7 +108,7 @@ h1{
 .gold-color{
     color: #fbb534;
 }
-.post-width .button{
+.post-width .button, .special-offer .button{
     margin: 10px;
     font-weight: 700;
     padding: 10px 15px;
@@ -124,4 +124,24 @@ h1{
 }
 .see-more{
     text-align: center;
+}
+.special-offer{
+    box-shadow: 2px 2px 5px gray;
+    padding: 50px;
+    margin: 5%;
+}
+.special-offer h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.special-offer h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.spo-img{
+    background-image: url(images/ring-img.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
