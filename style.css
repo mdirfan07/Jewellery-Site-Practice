@@ -1,0 +1,127 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.flex-item{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    margin: 0 5% 5% 5%;
+}
+.half-width img{
+    width: 6%;
+    margin-top: 10px;
+}
+.half-width .logo{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: -43px;
+    margin-left: 40px;
+    color: black;
+}
+.half-width a{
+    text-decoration: none;
+}
+.half-width .navbar li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 20px;
+    display: inline;
+}
+.half-width .navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+.half-width .navbar a:hover{
+    color: white;
+    border: 2px solid gold;
+    background: goldenrod;
+    padding: 3px;
+}
+.top-bg{
+    background-image: url(images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 50px;
+}
+.half-width span{
+    font-size: 100px;
+    font-weight: 700;
+}
+.half-width p{
+    margin-left: 50px;
+}
+.half-width .top-img{
+    width: 100%;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    background: black;
+    padding: 10px 40px;
+    border: 1px solid;
+    font-weight: 500;
+    color: white;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.button:hover{
+    background: white;
+    border: 1px solid black;
+    color: black;
+}
+.top-side-img{
+    background-image: url(images/design-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width .about-img{
+    width: 100%;
+}
+.about-side-img{
+    background: url(images/design-2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#shop{
+    background-color: #f8f8f8;
+    padding: 30px;
+}
+.post-width{
+    width: 27%;
+    margin: 25px;
+    text-align: center;
+    box-shadow: 2px 2px 5px gray;
+    padding: 50px 40px;
+    
+}
+.gold-color{
+    color: #fbb534;
+}
+.post-width .button{
+    margin: 10px;
+    font-weight: 700;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+}
+.post-width .button:hover{
+    color: #fbb534;
+    border: 1px solid #fbb534;
+}
+.post-width img{
+    margin: 40px;
+}
+.see-more{
+    text-align: center;
+}
